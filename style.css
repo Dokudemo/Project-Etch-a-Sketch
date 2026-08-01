@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 40px;
+}
+
+input {
+    border-radius: 7px;
+    border-color: rgb(162, 162, 245);
+    padding: 7px;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(162, 162, 245);
+    height: 37px;
+}
+
+.gameBoard {
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
